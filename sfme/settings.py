@@ -45,7 +45,7 @@ if env_hosts:
 # Azure internal health probes may hit the container by IP
 # Allow link-local 169.254.* only when running on App Service
 if os.getenv("WEBSITES_INSTANCE_ID"):
-    ALLOWED_HOSTS += ["169.254.129.2", "169.254.129.2:8000"]
+    ALLOWED_HOSTS += ["169.254.129.3", "169.254.129.3:8000"]
 
 # Optional: for local dev convenience
 if DEBUG and not ALLOWED_HOSTS:
