@@ -17,7 +17,6 @@ from dotenv import load_dotenv
 from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 load_dotenv(BASE_DIR / '.env')
 
 # Quick-start development settings - unsuitable for production
@@ -26,13 +25,30 @@ load_dotenv(BASE_DIR / '.env')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("SECRET_KEY")
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Production toggles (Azure sets WEBSITES_HOSTNAME)
+DEBUG = os.getenv("DJANGO_DEBUG", "false").lower() == "true"
 
+# ALLOWED_HOSTS: prefer env var, but also allow the Azure-provided hostname automatically.
+# Set DJANGO_ALLOWED_HOSTS in Azure App Settings (comma-separated).
+AZURE_HOSTNAME = os.getenv("WEBSITES_HOSTNAME", "")
 ALLOWED_HOSTS = []
 
-CORS_ALLOW_ALL_ORIGINS = True
+if AZURE_HOSTNAME:
+    ALLOWED_HOSTS.append(AZURE_HOSTNAME)
 
+env_hosts = os.getenv("DJANGO_ALLOWED_HOSTS", "")
+if env_hosts:
+    ALLOWED_HOSTS += [h.strip() for h in env_hosts.split(",") if h.strip()]
+
+# Optional: for local dev convenience
+if DEBUG and not ALLOWED_HOSTS:
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+
+CORS_ALLOW_ALL_ORIGINS = os.getenv("CORS_ALLOW_ALL_ORIGINS", "false").lower() == "true"
+
+cors_origins = os.getenv("CORS_ALLOWED_ORIGINS", "")
+if cors_origins:
+    CORS_ALLOWED_ORIGINS = [o.strip() for o in cors_origins.split(",") if o.strip()]
 
 # Application definition
 
@@ -72,8 +88,8 @@ REST_FRAMEWORK = {
 }
 
 # If you're behind a proxy (nginx), set this so IP throttling is correct:
-# USE_X_FORWARDED_HOST = True
-# SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+USE_X_FORWARDED_HOST = True
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
@@ -109,6 +125,7 @@ RECAPTCHA_MIN_SCORE = float(os.getenv("RECAPTCHA_MIN_SCORE", "0.5"))
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -161,31 +178,12 @@ DATABASES = {
         'PASSWORD': os.getenv("DB_PASSWORD"),
         'HOST': os.getenv("DB_HOST"),
         'PORT': os.getenv("DB_PORT"),
-        'OPTIONS': {
-            'sslmode': 'disable',  # Disable SSL for local development
+        "OPTIONS": {
+            "sslmode": os.getenv("DB_SSLMODE", "disable"),
         },
         'CONN_MAX_AGE': 60,  # Connection pooling
     }
 }
-
-# Password validation
-# https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
-
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
@@ -236,7 +234,8 @@ LOGGING = {
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field
