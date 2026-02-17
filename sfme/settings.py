@@ -33,12 +33,19 @@ DEBUG = os.getenv("DJANGO_DEBUG", "false").lower() == "true"
 AZURE_HOSTNAME = os.getenv("WEBSITES_HOSTNAME", "")
 ALLOWED_HOSTS = []
 
+# Azure provides the hostname here (e.g. "upangsfmebackend-...azurewebsites.net")
 if AZURE_HOSTNAME:
     ALLOWED_HOSTS.append(AZURE_HOSTNAME)
 
+# Comma-separated custom hosts
 env_hosts = os.getenv("DJANGO_ALLOWED_HOSTS", "")
 if env_hosts:
     ALLOWED_HOSTS += [h.strip() for h in env_hosts.split(",") if h.strip()]
+
+# Azure internal health probes may hit the container by IP
+# Allow link-local 169.254.* only when running on App Service
+if os.getenv("WEBSITES_INSTANCE_ID"):
+    ALLOWED_HOSTS += ["169.254.129.2", "169.254.129.2:8000"]
 
 # Optional: for local dev convenience
 if DEBUG and not ALLOWED_HOSTS:
