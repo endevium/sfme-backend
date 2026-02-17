@@ -1,0 +1,7 @@
+email,firstname,lastname,student_id,department,year_level,course
+john.doe@upang.edu.ph,John,Doe,2021-0001,Computer Science,3,BSCS
+jane.smith@upang.edu.ph,Jane,Smith,2021-0002,Information Technology,3,BSIT
+mike.johnson@upang.edu.ph,Mike,Johnson,2021-0003,Computer Science,2,BSCS
+sarah.wilson@upang.edu.ph,Sarah,Wilson,2021-0004,Information Technology,2,BSIT
+alex.brown@upang.edu.ph,Alex,Brown,2021-0005,Computer Science,4,BSCS
+emma.davis@upang.edu.ph,Emma,Davis,2021-0006,Information Technology,4,BSIT

@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production build
+build/
+dist/
+
+# Environment variables (Sensitive Data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+site-packages/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore model checkpoints
+
+checkpoints/
+
+
+
+# Ignore training results/logs
+
+results/
+
+
+
+# Ignore any large files by extension
+
+*.pt
+
+*.pth
+
+*.ckpt
+
+*.h5
+
+*.bin
+*.safetensors

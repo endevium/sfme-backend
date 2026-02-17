@@ -1,0 +1,8 @@
+email,firstname,lastname,employee_id,department,position
+
+dr.smith@upang.edu.ph,Robert,Smith,FAC001,Computer Science,Associate Professor
+dr.jones@upang.edu.ph,Mary,Jones,FAC002,Information Technology,Assistant Professor
+prof.brown@upang.edu.ph,David,Brown,FAC003,Computer Science,Lecturer
+prof.davis@upang.edu.ph,Lisa,Davis,FAC004,Information Technology,Lecturer
+dr.wilson@upang.edu.ph,James,Wilson,FAC005,Computer Science,Professor
+dr.taylor@upang.edu.ph,Patricia,Taylor,FAC006,Information Technology,Associate Professor

@@ -1,0 +1,2288 @@
+WARNING 2026-02-08 21:56:03,288 log 21952 20408 Bad Request: /api/department-head/login/
+WARNING 2026-02-08 21:59:13,883 log 24024 17488 Unauthorized: /api/students/bulk-import/
+WARNING 2026-02-08 22:03:28,576 log 1844 5068 Bad Request: /api/faculty/
+WARNING 2026-02-08 22:23:01,112 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:01,113 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:01,116 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:01,560 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:01,562 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:01,565 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:14,112 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:14,113 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:14,116 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:14,383 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:14,385 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:14,388 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:14,648 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:14,649 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:14,653 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:14,902 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:15,153 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:15,154 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:15,157 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:15,448 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:15,696 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:15,697 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:15,700 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:16,201 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:16,203 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:16,206 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:16,441 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:17,033 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:17,034 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:17,039 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:17,688 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:17,689 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:17,692 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:17,959 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:19,119 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:19,120 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:19,123 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:19,505 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:19,506 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:19,508 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:19,920 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:19,920 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:19,924 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:20,296 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:20,297 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:20,301 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:20,785 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:21,585 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:21,586 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:21,589 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:21,921 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:21,922 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:21,926 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:22,241 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:22,632 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:22,633 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:22,635 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:23,344 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:23,345 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:23,349 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:23,599 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:23,860 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:23,861 log 1828 17488 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:23,864 log 1828 17488 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:25,944 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:26,209 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:26,211 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:26,214 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:26,712 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:26,713 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:26,717 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:26,985 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:26,986 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:26,989 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:27,248 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:28,028 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:28,029 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:28,032 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:28,304 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:28,305 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:28,308 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:28,561 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:28,562 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:28,565 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:28,835 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:28,837 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:28,841 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:29,908 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:30,191 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:30,192 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:30,195 log 1828 15312 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:30,651 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:30,651 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:30,654 log 1828 17488 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:30,904 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:30,905 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:30,908 log 1828 15312 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:31,138 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:31,369 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:31,370 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:31,373 log 1828 17488 Too Many Requests: /api/students/
+WARNING 2026-02-08 22:23:31,569 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:31,570 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:31,573 log 1828 15312 Too Many Requests: /api/faculty/
+WARNING 2026-02-08 22:23:31,770 log 1828 15312 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:31,771 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:31,774 log 1828 17488 Too Many Requests: /api/evaluation-forms/
+WARNING 2026-02-08 22:23:31,978 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:32,216 log 1828 17488 Too Many Requests: /api/department-heads/2/
+WARNING 2026-02-08 22:23:32,217 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:23:32,221 log 1828 15312 Too Many Requests: /api/audit-logs/
+WARNING 2026-02-08 22:36:34,526 log 1828 21224 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:32:52,213 log 10692 21872 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:32:53,213 log 10692 21872 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:32:53,820 log 10692 21872 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:32:54,420 log 10692 21872 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:32:55,196 log 10692 21872 Bad Request: /api/department-head/login/
+WARNING 2026-02-09 14:33:01,450 log 10692 21872 Too Many Requests: /api/department-head/login/
+WARNING 2026-02-09 14:33:06,688 log 10692 21872 Too Many Requests: /api/department-head/login/
+ERROR 2026-02-09 20:43:21,146 log 5988 6340 Internal Server Error: /api/students/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\views.py", line 68, in create
+    message=f'Created new student: {student.firstname} {student.lastname} ({student.student_id})',
+                                                                            ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Student' object has no attribute 'student_id'
+WARNING 2026-02-09 20:43:27,634 log 5988 6340 Bad Request: /api/students/
+WARNING 2026-02-09 20:48:29,467 log 25824 13064 Bad Request: /api/students/
+ERROR 2026-02-09 20:49:10,905 log 25824 13064 Internal Server Error: /api/students/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\views.py", line 54, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\serializers.py", line 53, in create
+    student.save()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1220, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2026-02-09 20:49:31,775 log 25824 13064 Internal Server Error: /api/students/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\views.py", line 54, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\serializers.py", line 53, in create
+    student.save()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1220, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2026-02-09 20:49:43,503 log 25824 13064 Internal Server Error: /api/students/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\views.py", line 54, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\serializers.py", line 53, in create
+    student.save()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1220, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column "enrolled_subjects" is of type text[] but expression is of type jsonb
+LINE 1: ...2-12'::date, '03-1234-032803', 'CITE', 'BSIT', 3, '["ITE123 ...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+ERROR 2026-02-09 20:52:04,558 log 2920 8736 Internal Server Error: /api/students/
+WARNING 2026-02-09 21:18:44,025 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:18:49,297 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:18:49,993 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:18:50,688 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:18:50,873 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:20:02,726 log 2920 20872 Not Found: /api/students/03-2324-032803/
+WARNING 2026-02-09 21:30:35,749 log 2920 15168 Method Not Allowed: /api/audit-logs/
+WARNING 2026-02-09 21:32:50,302 log 2920 15168 Method Not Allowed: /api/audit-logs/
+ERROR 2026-02-10 16:21:22,054 log 11428 19852 Internal Server Error: /api/evaluation-forms/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "evaluation_forms" does not exist
+LINE 1: INSERT INTO "evaluation_forms" ("title", "form_type", "descr...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\api\views.py", line 305, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\query.py", line 669, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\base.py", line 1220, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "evaluation_forms" does not exist
+LINE 1: INSERT INTO "evaluation_forms" ("title", "form_type", "descr...
+                    ^
+
+WARNING 2026-02-10 16:22:43,694 log 11428 19852 Not Found: /api/module-evaluation-forms/
+WARNING 2026-02-10 16:24:36,519 log 11428 19852 Not Found: /api/module-evaluation-forms/
+WARNING 2026-02-10 16:24:36,540 log 11428 19852 Not Found: /api/instructor-evaluation-forms/
+WARNING 2026-02-10 16:24:36,549 log 11428 19852 Not Found: /api/module-evaluation-forms/
+WARNING 2026-02-10 16:24:36,566 log 11428 19852 Not Found: /api/instructor-evaluation-forms/
+ERROR 2026-02-10 16:37:45,998 log 14004 12416 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:37:46,223 log 14004 21376 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:37:46,241 log 14004 21376 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:38,407 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:38,426 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:40,326 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:46,017 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:46,077 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:51,425 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:51,444 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:52,363 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:52,392 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:53,739 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:53,756 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:54,426 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:38:54,455 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:39:06,583 log 23080 21580 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2026-02-10 16:39:06,621 log 23080 21748 Internal Server Error: /api/students/me/
+Traceback (most recent call last):
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel Esperanza\Documents\Projects\UPang-Student-Feedback-and-Module-Evaluation-System\.venv\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+WARNING 2026-02-11 13:25:47,515 log 18744 20172 Bad Request: /api/students/login/
+WARNING 2026-02-11 13:25:52,527 log 18744 20172 Bad Request: /api/students/login/
+WARNING 2026-02-11 13:26:06,511 log 18744 20172 Bad Request: /api/students/login/
+WARNING 2026-02-11 13:26:27,201 log 18744 20172 Bad Request: /api/students/login/
+WARNING 2026-02-11 13:31:21,751 log 18744 20700 Not Found: /api/department-head/
+WARNING 2026-02-11 13:31:30,801 log 18744 20700 Method Not Allowed: /api/department-head/login/
+WARNING 2026-02-11 13:39:15,390 log 18744 16240 Bad Request: /api/department-heads/
+WARNING 2026-02-11 13:48:40,096 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:48:40,104 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:48:46,749 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:48:47,961 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:49:03,588 log 18744 20072 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:49:03,601 log 18744 20072 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 13:49:03,604 log 18744 18604 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 13:49:03,609 log 18744 20072 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 13:49:03,614 log 18744 18604 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 13:49:29,427 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:49:31,463 log 18744 18604 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:52:30,758 log 18744 20072 Unauthorized: /api/students/
+WARNING 2026-02-11 13:52:44,272 log 18744 20072 Unauthorized: /api/students/
+WARNING 2026-02-11 13:54:10,951 log 18744 20072 Unauthorized: /api/students/
+WARNING 2026-02-11 13:55:00,822 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:55:01,172 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:55:01,726 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:55:02,742 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:55:02,901 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:55:03,068 log 18744 20072 Unauthorized: /api/students/5/
+WARNING 2026-02-11 13:56:50,246 log 18388 14420 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:56:50,252 log 18388 14420 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:56:57,285 log 18388 14420 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:58:08,139 log 18388 14420 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 13:58:46,550 log 18388 14420 Unauthorized: /api/students/
+WARNING 2026-02-11 14:04:01,711 log 20916 22364 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:04:03,321 log 20916 22364 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:04:42,788 log 20916 4888 Unauthorized: /api/students/
+WARNING 2026-02-11 14:09:45,990 log 12568 18340 Unauthorized: /api/audit-logs/
+WARNING 2026-02-11 14:10:18,294 log 12568 18340 Bad Request: /api/students/login/
+WARNING 2026-02-11 14:12:30,001 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:12:30,006 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:12:40,401 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:12:40,410 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:13:17,751 log 12568 18340 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:13:17,765 log 12568 18340 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:13:19,320 log 12568 18340 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:13:19,325 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:13:19,330 log 12568 18340 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 14:13:19,348 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:13:19,353 log 12568 18340 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 14:13:45,319 log 12568 18340 Unauthorized: /api/module-evaluation-forms/
+WARNING 2026-02-11 14:15:56,513 log 20312 156 Bad Request: /api/students/login/
+WARNING 2026-02-11 14:16:44,341 log 20312 156 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:16:44,352 log 20312 156 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:16:46,718 log 20312 156 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 14:16:46,723 log 20312 156 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 14:16:46,751 log 20312 156 Unauthorized: /api/instructor-evaluation-forms/
+WARNING 2026-02-11 14:16:53,021 log 20312 156 Unauthorized: /api/module-evaluation-forms/5/
+WARNING 2026-02-11 14:16:56,508 log 20312 156 Unauthorized: /api/module-evaluation-forms/5/
+WARNING 2026-02-11 14:17:18,956 log 19840 17360 Unauthorized: /api/module-evaluation-forms/5/
+WARNING 2026-02-11 14:17:20,868 log 19840 17360 Unauthorized: /api/module-evaluation-forms/5/
+WARNING 2026-02-11 17:40:55,417 log 12688 980 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:40:55,493 log 12688 980 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:40:57,140 log 12688 980 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:41:01,062 log 12688 20056 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:41:08,898 log 12688 20056 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:41:12,299 log 12688 20056 Unauthorized: /api/students/6/
+WARNING 2026-02-11 17:41:12,606 log 12688 20056 Unauthorized: /api/students/6/
+WARNING 2026-02-11 17:41:12,765 log 12688 20056 Unauthorized: /api/students/6/
+WARNING 2026-02-11 17:41:15,273 log 12688 20056 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:41:18,720 log 12688 20056 Unauthorized: /api/faculty/1/
+WARNING 2026-02-11 17:41:19,302 log 12688 20056 Unauthorized: /api/faculty/1/
+WARNING 2026-02-11 17:41:19,509 log 12688 20056 Unauthorized: /api/faculty/1/
+WARNING 2026-02-11 17:41:20,416 log 12688 20056 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:42:12,982 log 12688 980 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 17:42:18,337 log 12688 21384 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 19:57:33,255 log 20248 22024 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 19:57:33,332 log 20248 22024 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 19:57:34,604 log 20248 22024 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 19:58:14,065 log 20248 13712 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 19:58:14,072 log 20248 13712 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:02:54,552 log 20248 13712 Bad Request: /api/students/login/
+WARNING 2026-02-11 20:03:17,087 log 20248 19596 Not Found: /
+WARNING 2026-02-11 20:03:23,455 log 20248 19596 Unauthorized: /api/students/me/
+WARNING 2026-02-11 20:26:26,124 log 20248 18412 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:26:26,140 log 20248 18412 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:26:27,284 log 20248 18412 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:29:22,922 log 20248 15012 Unauthorized: /api/audit-logs/
+WARNING 2026-02-11 20:30:33,144 log 20248 15012 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:30:33,155 log 20248 15012 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:30:35,243 log 20248 15012 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:30:35,766 log 20248 15012 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:30:37,593 log 20248 11668 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 20:30:41,114 log 20248 15012 Unauthorized: /api/department-heads/3/
+ERROR 2026-02-11 20:30:48,648 log 20248 11668 Internal Server Error: /api/module-evaluation-forms/6/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 295, in delete
+    return self.destroy(request, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 553, in perform_destroy
+    user_name = f"{self.request.user.firstname} {self.request.user.lastname}".strip() or self.request.user.email or 'Depthead User'
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AnonymousUser' object has no attribute 'firstname'
+WARNING 2026-02-11 21:53:03,141 log 14716 14720 Not Found: /api/feedback/
+WARNING 2026-02-11 21:53:33,385 log 14716 14720 Bad Request: /api/feedback/submit/
+WARNING 2026-02-11 21:55:12,672 log 14716 14720 Bad Request: /api/feedback/submit/
+ERROR 2026-02-11 21:57:18,424 log 19856 17240 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 967, in create
+    form_obj = model.objects.get(pk=data['form_id'])
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:05:22,562 log 8320 15612 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 969, in create
+    form_obj = model.objects.get(pk=data['form_id'])
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:05:34,032 log 8320 15612 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 969, in create
+    form_obj = model.objects.get(pk=data['form_id'])
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:08:01,447 log 8320 15612 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 969, in create
+    form_obj = model.objects.get(pk=data['form_id'])
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:12:15,000 log 15208 15324 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 975, in create
+    form_obj = model.objects.get(pk=data['form_id'])
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+WARNING 2026-02-11 22:15:03,879 log 10252 16744 Bad Request: /api/feedback/submit/
+WARNING 2026-02-11 22:15:23,862 log 10252 16744 Bad Request: /api/feedback/submit/
+WARNING 2026-02-11 22:29:57,096 log 384 19188 Bad Request: /api/feedback/submit/
+WARNING 2026-02-11 22:32:52,924 log 384 19188 Bad Request: /api/feedback/submit/
+ERROR 2026-02-11 22:34:19,437 log 21012 21380 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 998, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 447, in run_validation
+    value = self.validate(value)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 120, in validate
+    obj = model.objects.get(pk=form_id)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:34:28,250 log 21012 21380 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'ITE370'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 998, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 447, in run_validation
+    value = self.validate(value)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 120, in validate
+    obj = model.objects.get(pk=form_id)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+        "Field '%s' expected a number but got %r." % (self.name, value),
+    ) from e
+ValueError: Field 'id' expected a number but got 'ITE370'.
+ERROR 2026-02-11 22:37:20,522 log 22408 22272 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\fields.py", line 102, in get_attribute
+    instance = instance[attr]
+               ~~~~~~~~^^^^^^
+KeyError: 'question'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 1020, in create
+    headers = self.get_success_headers(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.validated_data)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 72, in to_representation
+    data = super().to_representation(instance)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\fields.py", line 1654, in to_representation
+    return [self.child.to_representation(item) if item is not None else None for item in data]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `question` on serializer `FeedbackResponseItemSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'question'."
+ERROR 2026-02-11 22:39:57,694 log 464 1676 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 1020, in create
+    headers = self.get_success_headers(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.validated_data)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 105, in to_representation
+    data = super().to_representation(instance)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 82, in get_responses_out
+    for r in (instance.responses or []):
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'responses'
+ERROR 2026-02-11 22:49:54,424 log 10048 21484 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 1020, in create
+    out = self.get_serializer(obj).data
+                              ^^^
+NameError: name 'obj' is not defined
+ERROR 2026-02-11 22:52:10,888 log 20152 20160 Internal Server Error: /api/feedback/submit/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 1020, in create
+    obj = serializer.save(
+        student=student,
+        ip_address=request.META.get('REMOTE_ADDR', 'Unknown'),
+    )
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\serializers\FeedbackResponse.py", line 157, in create
+    return FeedbackResponse.objects.create(student=student, ip_address=ip, **validated_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: FeedbackResponse() got unexpected keyword arguments: 'form_type', 'form_id'
+WARNING 2026-02-11 23:28:10,544 log 14368 2068 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:28:10,551 log 14368 2068 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:28:12,307 log 14368 2068 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:28:25,930 log 14368 18804 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:28:59,618 log 14368 18804 Unauthorized: /api/faculty/
+WARNING 2026-02-11 23:29:59,599 log 18220 6788 Unauthorized: /api/audit-logs/
+WARNING 2026-02-11 23:30:06,481 log 18220 6788 Unauthorized: /api/faculty/4/
+WARNING 2026-02-11 23:30:07,151 log 18220 6788 Unauthorized: /api/faculty/4/
+WARNING 2026-02-11 23:30:08,118 log 18220 6788 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:59:22,577 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:59:22,584 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:59:23,853 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:59:30,662 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-11 23:59:34,008 log 22428 14772 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:00:34,361 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:00:34,365 log 22428 5184 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:19:13,028 log 8076 20236 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:19:14,411 log 8076 20236 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:21:13,898 log 8076 21936 Unauthorized: /api/audit-logs/
+WARNING 2026-02-12 00:21:25,696 log 8076 21936 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:21:27,871 log 8076 20236 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:39,657 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:39,666 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:45,158 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:47,805 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:48,931 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:31:49,648 log 8076 16300 Unauthorized: /api/department-heads/3/
+ERROR 2026-02-12 00:32:01,629 log 8076 7244 Internal Server Error: /api/instructor-evaluation-forms/1/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\generics.py", line 295, in delete
+    return self.destroy(request, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 647, in perform_destroy
+    user_name = f"{self.request.user.firstname} {self.request.user.lastname}".strip() or self.request.user.email or 'Depthead User'
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AnonymousUser' object has no attribute 'firstname'
+WARNING 2026-02-12 00:33:40,953 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:33:40,962 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:33:41,995 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:33:43,293 log 8076 16300 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:41:57,064 log 8076 16300 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:41:57,073 log 8076 16300 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:41:58,387 log 8076 16300 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:42:28,564 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:42:28,871 log 8076 7244 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:49:45,780 log 8076 19676 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:49:45,788 log 8076 19676 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:49:51,754 log 8076 19676 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:49:52,095 log 8076 16300 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 00:59:28,260 log 8076 16860 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 01:14:47,296 log 11564 21560 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 01:18:51,183 log 21048 18004 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 01:20:38,458 log 22288 17268 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 01:23:56,985 log 14444 5192 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 01:24:56,088 log 14444 5192 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 01:24:56,099 log 14444 5192 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 01:24:57,254 log 14444 5192 Unauthorized: /api/department-heads/3/
+WARNING 2026-02-12 01:44:21,570 log 9712 21008 Bad Request: /api/feedback/submit/
+WARNING 2026-02-12 22:50:40,088 log 7676 1464 Bad Request: /api/students/login/
+WARNING 2026-02-12 22:50:46,070 log 7676 1464 Bad Request: /api/students/login/
+WARNING 2026-02-12 22:50:49,575 log 7676 1464 Bad Request: /api/students/login/
+WARNING 2026-02-12 22:50:51,929 log 7676 1464 Bad Request: /api/students/login/
+WARNING 2026-02-12 22:50:55,584 log 7676 1464 Bad Request: /api/students/login/
+WARNING 2026-02-12 22:50:56,494 log 7676 1464 Too Many Requests: /api/students/login/
+WARNING 2026-02-12 22:51:32,452 log 7676 1464 Too Many Requests: /api/students/login/
+WARNING 2026-02-12 22:51:38,213 log 7676 1464 Too Many Requests: /api/students/login/
+WARNING 2026-02-16 16:11:20,061 log 16256 10784 Not Found: /vscode/next-command
+WARNING 2026-02-16 16:13:31,983 log 16256 8944 Not Found: /api/student/login/
+WARNING 2026-02-16 16:13:38,883 log 16256 8944 Bad Request: /api/students/login/
+ERROR 2026-02-16 16:14:41,311 log 16256 8944 Internal Server Error: /api/students/login/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "email_otps" does not exist
+LINE 1: INSERT INTO "email_otps" ("email", "otp", "purpose", "role",...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 257, in post
+    record = create_and_send_otp(
+        email=user.email,
+    ...<2 lines>...
+        role=EmailOTP.Role.STUDENT
+    )
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\utils.py", line 19, in create_and_send_otp
+    record = EmailOTP.objects.create(
+        email=email,
+    ...<4 lines>...
+        pending_token=pending_token
+    )
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 669, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1220, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "email_otps" does not exist
+LINE 1: INSERT INTO "email_otps" ("email", "otp", "purpose", "role",...
+                    ^
+
+ERROR 2026-02-16 16:48:39,932 log 13972 15956 Internal Server Error: /api/students/login/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 257, in post
+    record = create_and_send_otp(
+        email=user.email,
+    ...<2 lines>...
+        role=EmailOTP.Role.STUDENT
+    )
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\utils.py", line 28, in create_and_send_otp
+    send_mail(
+    ~~~~~~~~~^
+        subject="Your OTP Code",
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        fail_silently=False,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 268, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 108, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 358, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 130, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 88, in open
+    self.connection = self.connection_class(
+                      ~~~~~~~~~~~~~~~~~~~~~^
+        self.host, self.port, **connection_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR 2026-02-16 16:49:12,705 log 13972 15956 Internal Server Error: /api/students/login/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 257, in post
+    record = create_and_send_otp(
+        email=user.email,
+    ...<2 lines>...
+        role=EmailOTP.Role.STUDENT
+    )
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\utils.py", line 28, in create_and_send_otp
+    send_mail(
+    ~~~~~~~~~^
+        subject="Your OTP Code",
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        fail_silently=False,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 268, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 108, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 358, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 130, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 88, in open
+    self.connection = self.connection_class(
+                      ~~~~~~~~~~~~~~~~~~~~~^
+        self.host, self.port, **connection_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR 2026-02-16 16:49:39,264 log 14748 7460 Internal Server Error: /api/students/login/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 257, in post
+    record = create_and_send_otp(
+        email=user.email,
+    ...<2 lines>...
+        role=EmailOTP.Role.STUDENT
+    )
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\utils.py", line 28, in create_and_send_otp
+    send_mail(
+    ~~~~~~~~~^
+        subject="Your OTP Code",
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        fail_silently=False,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 268, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 108, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 358, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 130, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 88, in open
+    self.connection = self.connection_class(
+                      ~~~~~~~~~~~~~~~~~~~~~^
+        self.host, self.port, **connection_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+ERROR 2026-02-16 16:52:43,717 log 18588 15632 Internal Server Error: /api/students/login/
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\views.py", line 257, in post
+    record = create_and_send_otp(
+        email=user.email,
+    ...<2 lines>...
+        role=EmailOTP.Role.STUDENT
+    )
+  File "C:\Users\PC\Desktop\Projects\UpangSFME\api\utils.py", line 28, in create_and_send_otp
+    send_mail(
+    ~~~~~~~~~^
+        subject="Your OTP Code",
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        fail_silently=False,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\utils\deprecation.py", line 268, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 108, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 358, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 130, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\PC\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 88, in open
+    self.connection = self.connection_class(
+                      ~~~~~~~~~~~~~~~~~~~~~^
+        self.host, self.port, **connection_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+WARNING 2026-02-16 17:01:54,404 log 18828 19012 Not Found: /api/department-heads/login/
+WARNING 2026-02-16 17:22:34,008 log 17352 2604 Bad Request: /api/otp/verify/

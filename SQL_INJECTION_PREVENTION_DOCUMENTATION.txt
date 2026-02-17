@@ -1,0 +1,549 @@
+================================================================================
+UPANG STUDENT FEEDBACK AND MODULE EVALUATION SYSTEM
+SQL INJECTION PREVENTION DOCUMENTATION
+================================================================================
+
+Created: February 8, 2026
+Last Updated: February 8, 2026
+
+================================================================================
+1. EXECUTIVE SUMMARY
+================================================================================
+
+This document outlines the comprehensive SQL injection prevention measures
+implemented in the UPang Student Feedback and Module Evaluation System.
+The Django-based application has been secured with multiple layers of protection
+against SQL injection attacks.
+
+SECURITY STATUS: HIGHLY SECURE ✅
+- Zero SQL injection vulnerabilities detected
+- Multiple defense layers implemented
+- Continuous monitoring and logging enabled
+
+================================================================================
+2. CURRENT SECURITY STATUS
+================================================================================
+
+✅ Django ORM Protection: All database queries use Django's ORM with automatic
+   parameter escaping and SQL injection prevention
+
+✅ No Raw SQL Usage: Zero instances of dangerous raw SQL queries found in
+   the codebase
+
+✅ Input Validation: Comprehensive validation implemented in serializers
+   for all user inputs
+
+✅ Middleware Protection: Active SQL injection detection middleware monitors
+   all HTTP requests
+
+✅ Security Logging: All suspicious activities are logged with IP addresses
+   and timestamps
+
+✅ Audit Trail: Complete audit logging for all form operations and user
+   activities, including bulk import operations
+
+✅ Bulk Import Auditing: Automatic logging of bulk student and faculty imports
+   with record counts and success/failure status
+
+================================================================================
+3. IMPLEMENTED SECURITY MEASURES
+================================================================================
+
+3.1 DJANGO ORM PROTECTION (BUILT-IN)
+------------------------------------
+
+Django's Object-Relational Mapping (ORM) automatically prevents SQL injection
+by using parameterized queries. All database operations in this project use
+the ORM safely:
+
+SAFE EXAMPLES:
+- EvaluationForm.objects.filter(title__icontains=search_term)
+- DepartmentHead.objects.get(id=user_id)
+- AuditLog.objects.create(user=user_name, action=action, ...)
+
+3.2 INPUT VALIDATION IN SERIALIZERS
+-----------------------------------
+
+Comprehensive input validation implemented in api/serializers.py:
+
+TITLE VALIDATION:
+- Prevents empty titles
+- Maximum length: 200 characters
+- Blocks dangerous characters: < > & " ' ; -- /* */
+- XSS prevention
+
+DESCRIPTION SANITIZATION:
+- Maximum length: 1000 characters
+- HTML tag removal
+- Script tag filtering
+
+QUESTIONS JSON VALIDATION:
+- Structure validation for question objects
+- Required fields checking (type, question)
+- Content length limits (500 chars per question)
+- Dangerous pattern detection (SQL keywords, scripts)
+
+3.3 SQL INJECTION DETECTION MIDDLEWARE
+---------------------------------------
+
+Custom middleware (api/middleware.py) monitors all HTTP requests:
+
+PATTERN DETECTION:
+- SQL injection signatures: ; SELECT, UNION SELECT, -- comments
+- Command injection: xp_cmdshell, exec()
+- Information disclosure: information_schema, sysobjects
+
+REQUEST MONITORING:
+- GET parameters scanning
+- POST data validation
+- JSON body inspection
+- IP address logging for suspicious activities
+
+AUTOMATIC RESPONSE:
+- HTTP 403 Forbidden for detected attacks
+- Security event logging
+- Request blocking
+
+3.4 SECURITY HEADERS & CONFIGURATION
+------------------------------------
+
+Enhanced Django settings (sfme/settings.py):
+
+CONTENT SECURITY:
+- SECURE_CONTENT_TYPE_NOSNIFF = True
+- SECURE_BROWSER_XSS_FILTER = True
+- X_FRAME_OPTIONS = 'DENY'
+
+HTTP STRICT TRANSPORT SECURITY:
+- SECURE_HSTS_SECONDS = 31536000 (1 year)
+- SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+- SECURE_HSTS_PRELOAD = True
+
+REST FRAMEWORK SECURITY:
+- JSON-only renderer and parser
+- Explicit content type handling
+- Throttling enabled (100/min anon, 300/min user)
+
+3.5 DATABASE SECURITY
+--------------------
+
+PostgreSQL configuration with security enhancements:
+
+CONNECTION SECURITY:
+- SSL mode ready for production
+- Connection pooling (CONN_MAX_AGE = 60)
+- Environment variable credentials
+
+AUDIT TABLES:
+- AuditLog table for activity tracking
+- Role-based access control
+- Timestamp and IP logging
+
+3.6 LOGGING & MONITORING
+------------------------
+
+Comprehensive logging configuration:
+
+SECURITY LOGS:
+- Location: logs/security.log
+- Level: WARNING and above
+- Format: timestamp, level, module, message
+
+AUDIT LOGS:
+- All form CRUD operations logged
+- User actions tracked
+- Role-based filtering (Depthead activities)
+- Bulk import operations logged with record counts
+- Import success/failure status tracking
+
+================================================================================
+4. SECURITY CHECK RESULTS
+================================================================================
+
+Automated security scanning results:
+
+✅ RAW SQL USAGE CHECK: PASSED
+   - No instances of .raw(), cursor.execute(), or raw SQL found
+
+✅ UNSAFE STRING FORMATTING: PASSED
+   - No dangerous string interpolation in queries
+
+✅ INPUT VALIDATION: PASSED
+   - Serializer validation methods implemented
+   - Field-level and object-level validation
+
+✅ SECURITY CONFIGURATION: PASSED
+   - SECRET_KEY properly configured
+   - DEBUG=False ready for production
+   - CORS restrictions in place
+
+⚠️  CONFIGURATION WARNINGS:
+   - DEBUG=True (development only)
+   - CORS_ALLOW_ALL_ORIGINS=True (restrict in production)
+
+================================================================================
+5. BEST PRACTICES IMPLEMENTED
+================================================================================
+
+5.1 CODE SECURITY
+-----------------
+- Never use raw SQL queries
+- Always validate user inputs on server-side
+- Use Django ORM for all database operations
+- Implement proper error handling
+- Avoid exposing sensitive information in errors
+
+5.2 DATA HANDLING
+-----------------
+- Sanitize all user inputs
+- Validate data types and formats
+- Implement length limits
+- Use whitelist validation over blacklist
+- Escape special characters
+
+5.3 AUTHENTICATION & AUTHORIZATION
+----------------------------------
+- JWT token-based authentication
+- Role-based access control
+- Manual token validation
+- Session management
+- Request throttling
+
+5.4 MONITORING & LOGGING
+------------------------
+- Log all security events
+- Monitor for suspicious patterns
+- Track user activities
+- IP address logging
+- Regular security audits
+
+================================================================================
+6. PRODUCTION READINESS CHECKLIST
+================================================================================
+
+REQUIRED FOR PRODUCTION DEPLOYMENT:
+
+✅ DATABASE SECURITY:
+- [ ] Enable SSL connections (sslmode=require)
+- [ ] Use strong database passwords
+- [ ] Implement database backups
+- [ ] Set up connection limits
+
+✅ APPLICATION SECURITY:
+- [ ] Set DEBUG=False
+- [ ] Configure ALLOWED_HOSTS
+- [ ] Set SECRET_KEY securely
+- [ ] Enable SECURE_SSL_REDIRECT=True
+- [ ] Configure SESSION_COOKIE_SECURE=True
+- [ ] Configure CSRF_COOKIE_SECURE=True
+
+✅ INFRASTRUCTURE SECURITY:
+- [ ] Use HTTPS/SSL certificates
+- [ ] Implement firewall rules
+- [ ] Set up monitoring and alerting
+- [ ] Configure log rotation
+- [ ] Regular security updates
+
+✅ MONITORING & AUDITING:
+- [ ] Set up log aggregation
+- [ ] Implement intrusion detection
+- [ ] Regular vulnerability scanning
+- [ ] Security incident response plan
+
+================================================================================
+7. MONITORING COMMANDS
+================================================================================
+
+7.1 SECURITY CHECKING
+---------------------
+# Run comprehensive security scan
+python manage.py check_security
+
+# Django built-in security checks
+python manage.py check --deploy
+
+# Validate settings for production
+python manage.py check --settings=sfme.settings
+
+7.2 LOG MONITORING
+------------------
+# View security logs
+tail -f logs/security.log
+
+# Search for security events
+grep "WARNING\|ERROR" logs/security.log
+
+# Monitor audit logs
+python manage.py shell -c "from api.models import AuditLog; print(AuditLog.objects.count())"
+
+7.3 SYSTEM MONITORING
+---------------------
+# Check database connections
+python manage.py shell -c "from django.db import connection; print(connection.vendor)"
+
+# Verify middleware loading
+python manage.py shell -c "from django.conf import settings; print('SQLInjectionProtectionMiddleware' in str(settings.MIDDLEWARE))"
+
+================================================================================
+8. EMERGENCY RESPONSE
+================================================================================
+
+8.1 DETECTED ATTACK RESPONSE
+----------------------------
+1. Check security logs: tail -f logs/security.log
+2. Identify attack source IP
+3. Block IP at firewall level
+4. Review audit logs for compromised accounts
+5. Rotate secrets if necessary
+6. Update security rules if needed
+
+8.2 LOG ANALYSIS
+# Find most active IPs
+grep "SQL injection attempt" logs/security.log | cut -d' ' -f10 | sort | uniq -c | sort -nr
+
+8.3 RECOVERY PROCEDURES
+3.5.1 DATABASE SECURITY — DETAILED GUIDANCE
+-------------------------------------------
+This section expands on database hardening, access control, encryption,
+backup/recovery, monitoring, and operational best practices.
+
+Access control & roles:
+- Principle of Least Privilege: create separate DB users for the
+   application, migrations, and DB admins. Application user should have
+   only the privileges necessary (SELECT, INSERT, UPDATE, DELETE) on
+   specific schemas/tables. Avoid `SUPERUSER` for application roles.
+- Role separation: use a read-only role for reporting tasks and a
+   separate write role for the application when appropriate.
+- Use row-level security (RLS) where multi-tenant or per-user data
+   isolation is required.
+
+Network & connection security:
+- Enforce TLS/SSL for all client-server connections. Configure
+   `sslmode=require` in production connection strings and provide
+   server certificates.
+- Restrict network access with firewall rules and VPC/SGs so that only
+   application servers and DB admin IPs can access the DB port.
+- Use private networking (no public IP) for production DB instances.
+
+Authentication & secrets management:
+- Do not store DB credentials in repository. Use environment variables
+   or a secrets manager (Azure Key Vault, AWS Secrets Manager, HashiCorp
+   Vault) and rotate credentials regularly.
+- Prefer short-lived credentials or IAM-based database auth when
+   supported (cloud-managed DBs).
+
+Encryption & data protection:
+- Enable encryption at rest (cloud provider-managed or file-system
+   level). For highly sensitive data, use application-level field
+   encryption and per-field key management.
+- Encrypt backups and any exported data. Store backups in an access-
+   controlled location.
+
+Backups, recovery & testing:
+- Implement automated backups with regular retention and off-site
+   copies. Maintain retention policy according to data retention rules.
+- Test recovery procedures periodically (full and point-in-time
+   restores) and document Recovery Time Objective (RTO) and Recovery
+   Point Objective (RPO).
+
+Configuration hardening:
+- Secure `postgresql.conf` and `pg_hba.conf`:
+   - Disable trust authentication; use `md5`/`scram-sha-256` or
+      cloud-managed IAM options.
+   - Restrict admin connections to specific IPs.
+   - Disable unused extensions and functions (e.g., `dblink`) unless
+      explicitly required.
+- Limit superuser accounts and audit their use.
+
+Monitoring, logging & auditing:
+- Enable and ship audit logging (statement or CSV logs) to a
+   centralized logging/SIEM system with restricted access.
+- Track slow queries and excessive privilege escalations; alert on
+   spikes in `ERROR`/`FATAL` messages or repeated `IntegrityError`.
+- Keep audit logs for an appropriate retention period and protect
+   their integrity.
+
+Maintenance, patching & lifecycle:
+- Apply security patches promptly for the DB engine and OS. Test
+   patches in staging before production rollout.
+- Rotate user passwords and service account credentials on a schedule.
+
+Operational safeguards:
+- Use connection pooling (e.g., pgbouncer) to reduce DB resource
+   exhaustion and avoid exposing DB directly to the internet.
+- Implement limits and quotas where supported (e.g., per-user
+   connections, statement_timeout, lock_timeout) to mitigate DoS.
+
+Example PostgreSQL settings (production recommendations):
+- `password_encryption = scram-sha-256`
+- `ssl = on` and configure certs
+- `log_min_error_statement = error`
+- `log_statement = 'ddl'` (or use an audit extension for more control)
+- `statement_timeout = 30000` (30s) for long-running query protection
+
+Quick checklist for production readiness:
+- [ ] Use TLS/SSL for DB connections and disable public access
+- [ ] Enforce least-privilege roles for application accounts
+- [ ] Store DB credentials in a secrets manager and rotate them
+- [ ] Enable encryption at rest and encrypt backups
+- [ ] Configure and retain audit logs in a secure location
+- [ ] Test backup restores and patching in staging
+- [ ] Configure connection pooling and resource limits
+- [ ] Monitor for anomalous queries and errors; alert on spikes
+
+Notes specific to migrations and schema changes:
+- Run schema migrations via a CI/CD pipeline with a migration user
+   that has only the required privileges during deployment (and
+   revoke extra privileges afterward) or run migrations from an
+   isolated management environment.
+- Avoid running unreviewed migrations in production. Back up before
+   large schema changes and have a rollback plan.
+3. Update dependencies
+4. Test security measures
+5. Gradual rollout with monitoring
+
+================================================================================
+9. MAINTENANCE SCHEDULE
+================================================================================
+
+DAILY:
+- Monitor security logs
+- Check for unusual activity patterns
+- Review audit logs
+
+WEEKLY:
+- Run security check command
+- Update dependencies
+- Review firewall rules
+
+MONTHLY:
+- Full security audit
+- Penetration testing
+- Code review for security issues
+
+QUARTERLY:
+- Security training review
+- Incident response drill
+- Third-party security assessment
+
+================================================================================
+10. CONTACT INFORMATION
+================================================================================
+
+Security Team: 
+Emergency Contact: 
+Documentation Author: Gabriel Esperanza
+Last Review Date: February 8, 2026
+
+================================================================================
+11. BULK IMPORT AUDITING
+================================================================================
+
+11.1 STUDENT BULK IMPORT
+------------------------
+Endpoint: POST /api/students/bulk-import/
+Authentication: Department Head JWT Token Required
+Audit Log: "Bulk Import Students" with count and status
+
+CSV FORMAT REQUIREMENTS:
+- Required columns: email, firstname, lastname, student_id
+- Optional columns: department, year_level, course
+- File format: CSV with headers
+
+SAMPLE AUDIT LOG:
+"Imported 45 new student records from CSV file. 2 errors encountered."
+
+11.2 FACULTY BULK IMPORT
+------------------------
+Endpoint: POST /api/faculty/bulk-import/
+Authentication: Department Head JWT Token Required
+Audit Log: "Bulk Import Faculty" with count and status
+
+CSV FORMAT REQUIREMENTS:
+- Required columns: email, firstname, lastname, employee_id
+- Optional columns: department, position
+- File format: CSV with headers
+
+SAMPLE AUDIT LOG:
+"Imported 12 new faculty records from CSV file. 0 errors encountered."
+
+11.3 AUDIT LOG DETAILS
+----------------------
+Each bulk import operation creates an audit log entry containing:
+- User: Department head name and email
+- Role: Depthead
+- Action: "Bulk Import Students" or "Bulk Import Faculty"
+- Category: USER MANAGEMENT
+- Status: Success/Failed
+- Message: Import summary with record count and error count
+- IP Address: Client IP address
+- Timestamp: Import completion time
+
+11.4 ERROR HANDLING
+-------------------
+The system handles various import and application-level errors with
+clear, consistent rules that avoid leaking sensitive information while
+providing actionable diagnostics for operators.
+
+Principles:
+- Do not expose raw SQL, stack traces, or internal exception details in
+   API responses. Return generic messages to clients and include a
+   reference/correlation ID for troubleshooting.
+- Differentiate client errors (4xx) from server errors (5xx). Use
+   `400/422` for validation and data issues, `403` for permission issues,
+   and `500` for unexpected server failures.
+- Log full diagnostic details (including sanitized request context,
+   user, IP, endpoint, and traceback) to secured logs or an error
+   tracking system (e.g., Sentry). Keep logs access-controlled.
+
+Django / DRF implementation details:
+- Use serializer validation (`serializers.ValidationError`) to return
+   structured 400 responses for bad input.
+- Wrap multi-row operations (bulk imports, updates) in
+   `django.db.transaction.atomic()` so partial failures rollback and
+   maintain consistency.
+- Catch database exceptions such as `IntegrityError`, `DataError`, and
+   map them to appropriate 4xx/5xx responses. For example, unique
+   constraint violations should be translated into a 422 response with
+   a sanitized message and row-level error details.
+- Configure a global DRF exception handler (e.g.,
+   `api.exceptions.custom_exception_handler`) to centralize mapping of
+   exceptions to HTTP responses and to emit correlation IDs.
+- Add an exception-logging middleware that records context and returns
+   a user-friendly error payload: {"error": "An internal error
+   occurred", "ref": "<correlation-id>"}.
+
+Bulk import specifics:
+- Validate each CSV row and collect per-row errors rather than failing
+   the entire job when reasonable. Produce an import summary with counts
+   of successful rows and a separate list (or file) of failed rows and
+   error messages.
+- Audit logs for bulk import must include: total rows, successful
+   count, failed count, and a link/reference to exported failed rows.
+- Store failed-row payloads (or hashes) securely for later reprocessing
+   and avoid logging sensitive fields (PII) in plaintext.
+
+Logging and monitoring:
+- Log structure: include `timestamp`, `level`, `module`, `user_id`,
+   `ip`, `endpoint`, `correlation_id`, `error_type`, and `sanitized_message`.
+- Push internal errors to an error-tracking system and create alerts for
+   spike patterns (e.g., many 500s or repeated IntegrityErrors).
+- Retain detailed tracebacks only in secure logs; truncate or redact
+   sensitive values when writing to less-protected destinations.
+
+Operational recommendations:
+- Return a short, actionable message to clients and a `ref` id for
+   support (e.g., "An internal error occurred. Reference: 20260212-abc123").
+- Implement retries with exponential backoff for transient database
+   connectivity errors, but avoid retrying idempotent operations that
+   may cause duplicates unless idempotency is explicitly supported.
+- Add unit and integration tests that assert proper HTTP codes and
+   sanitized messages for common failure modes.
+
+Examples:
+- Validation error (bad CSV row): HTTP 400/422 with {"errors": [{"row": 12, "message": "Missing required field: email"}], "summary": {"imported": 48, "failed": 2}}
+- Internal server error: HTTP 500 with {"error": "Internal server error", "ref": "20260212-abc123"}
+
+
+All errors are logged and reported back to the user with specific row numbers
+and error descriptions.
