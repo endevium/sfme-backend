@@ -258,7 +258,7 @@ DATABASES = {
         'HOST': os.getenv("DB_HOST"),
         'PORT': os.getenv("DB_PORT"),
         'OPTIONS': {
-            'sslmode': 'disable',  # Disable SSL for local development
+            'sslmode': os.getenv('DB_SSLMODE', 'require'), # Disable SSL for local development
         },
         'CONN_MAX_AGE': 60,  # Connection pooling
     }
