@@ -7,6 +7,22 @@ from django.utils import timezone
 
 from .models.OTP import EmailOTP
 
+import csv
+import io
+import bleach
+
+import re
+from rest_framework.exceptions import ValidationError as DRFValidationError
+
+PASSWORD_MAX_AGE_DAYS = 60
+ALLOWED_CSV_MIME_TYPES = {
+    "text/csv",
+    "application/csv",
+}
+
+ANGLE_RE = re.compile(r"[<>]")
+EMOJI_FALLBACK_RE = re.compile(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]")
+
 def generate_otp() -> str:
     return f"{secrets.randbelow(1_000_000):06d}"
 
@@ -68,3 +84,76 @@ def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOT
     msg.send(fail_silently=False)
 
     return record
+
+def is_password_expired(user) -> bool:
+    """
+    Returns True if user's password is older than PASSWORD_MAX_AGE_DAYS.
+    If password_changed_at is missing/null, treat as expired (forces change).
+    """
+    changed_at = getattr(user, "password_changed_at", None)
+    if not changed_at:
+        return True
+    return timezone.now() - changed_at > timedelta(days=PASSWORD_MAX_AGE_DAYS)
+
+def validate_uploaded_csv(file_obj, *, max_bytes: int, required_columns: set[str]) -> tuple[str, csv.DictReader]:
+    """
+    Returns (decoded_text, csv_reader) if valid, raises DRF ValidationError otherwise.
+    """
+    from rest_framework.exceptions import ValidationError as DRFValidationError
+
+    if not file_obj:
+        raise DRFValidationError("No file provided.")
+
+    # size
+    if getattr(file_obj, "size", None) is not None and file_obj.size > max_bytes:
+        raise DRFValidationError(f"File too large. Max is {max_bytes} bytes.")
+
+    # extension
+    name = getattr(file_obj, "name", "") or ""
+    if not name.lower().endswith(".csv"):
+        raise DRFValidationError("File must be a .csv")
+
+    # content-type (best effort)
+    ctype = getattr(file_obj, "content_type", "") or ""
+    if ctype and ctype not in ALLOWED_CSV_MIME_TYPES:
+        raise DRFValidationError(f"Invalid content type: {ctype}. Only CSV is allowed.")
+
+    # decode
+    try:
+        raw = file_obj.read()
+        text = raw.decode("utf-8-sig")  # handles BOM
+    except Exception:
+        raise DRFValidationError("CSV must be UTF-8 encoded.")
+
+    # parse header
+    reader = csv.DictReader(io.StringIO(text))
+    cols = set([c.strip() for c in (reader.fieldnames or []) if c])
+    missing = sorted(required_columns - cols)
+    if missing:
+        raise DRFValidationError({
+            "detail": f"Missing required columns: {', '.join(missing)}. Found columns: {', '.join(sorted(cols))}",
+            "missing": missing,
+            "found": sorted(cols)
+        })
+
+    return text, reader
+
+def sanitize_text(value: str) -> str:
+    if value is None:
+        return value
+    value = str(value)
+    return bleach.clean(value, tags=[], attributes={}, strip=True)
+
+def validate_plain_text(value: str, *, field_name: str = "value") -> str:
+    if value is None:
+        return value
+
+    value = sanitize_text(value)
+
+    if ANGLE_RE.search(value):
+        raise DRFValidationError({field_name: 'Must not contain "<" or ">".'})
+
+    if EMOJI_FALLBACK_RE.search(value):
+        raise DRFValidationError({field_name: "Emojis are not allowed."})
+
+    return value

@@ -1,17 +1,27 @@
 from rest_framework import serializers
-from ..models.Module import Module
+from api.models import Module
+from api.models.ClassroomEnrollment import ClassroomEnrollment
 
 class ModuleSerializer(serializers.ModelSerializer):
+    student_count = serializers.SerializerMethodField()
+
     class Meta:
         model = Module
-        fields = ['id', 'subject_code', 'module_name', 'department', 'semester', 'academic_year']
+        fields = [
+            "id",
+            "subject_code",
+            "module_name",
+            "year_level",
+            "department",
+            "semester",
+            "academic_year",
+            "department_head",
+            "student_count",
+        ]
+        read_only_fields = ["id", "department"]
 
-    def create(self, validated_data):
-        return Module.objects.create(**validated_data)
-
-    def update(self, instance, validated_data):
-        for attr, value in validated_data.items():
-            setattr(instance, attr, value)
-        instance.save()
-        return instance
-    
+    def get_student_count(self, obj):
+        return ClassroomEnrollment.objects.filter(
+            classroom__subject_code=obj.subject_code,
+            approved=True,
+        ).values("student").distinct().count()

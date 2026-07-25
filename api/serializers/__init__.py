@@ -11,6 +11,11 @@ from .Student import StudentSerializer
 from .StudentChangePassword import StudentChangePasswordSerializer
 from .StudentLogin import StudentLoginSerializer
 from .OTP import SendOTPSerializer, VerifyOTPSerializer
+from .Block import BlockSerializer
+from .Classroom import ClassroomSerializer
+from .ClassroomEnrollment import ClassroomEnrollmentSerializer
+from .Module import ModuleSerializer
+from .Program import Program
 
 __all__ = [
     "AuditLogSerializer",
@@ -26,5 +31,10 @@ __all__ = [
     "StudentChangePasswordSerializer",
     "StudentLoginSerializer",
     "SendOTPSerializer",
-    "VerifyOTPSerializer"
+    "VerifyOTPSerializer",
+    "BlockSerializer",
+    "ClassroomSerializer",
+    "ClassroomEnrollmentSerializer",
+    "ModuleSerializer",
+    "ProgramSerializer"
 ]

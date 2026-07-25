@@ -2,6 +2,13 @@ from django.db import models
 from .base import PersonBase
 
 class Student(PersonBase):
+    STATUS_ACTIVE = "active"
+    STATUS_ARCHIVED = "archived"
+    STATUS_CHOICES = [
+        (STATUS_ACTIVE, "Active"),
+        (STATUS_ARCHIVED, "Archived"),
+    ]
+
     student_number = models.CharField(max_length=20, unique=True, blank=True, null=True)
     department = models.CharField(max_length=100, blank=True, null=True)
     program = models.CharField(max_length=100, blank=True, null=True)
@@ -14,6 +21,7 @@ class Student(PersonBase):
     enrolled_subjects = models.JSONField(default=list, blank=True, null=True)
     # Block / section identifier
     block_section = models.CharField(max_length=50, blank=True, null=True)
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=STATUS_ACTIVE)
     must_change_password = models.BooleanField(default=True, db_column="must_change_password")
 
     class Meta:

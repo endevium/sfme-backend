@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from ..models.DepartmentHead import DepartmentHead
+from ..utils import is_password_expired
 
 class DepartmentHeadLoginSerializer(serializers.Serializer):
     email = serializers.CharField()  
@@ -21,6 +22,10 @@ class DepartmentHeadLoginSerializer(serializers.Serializer):
 
         if not user:
             raise serializers.ValidationError("Invalid credentials")
+        
+        if user and is_password_expired(user):
+            user.must_change_password = True
+            user.save(update_fields=["must_change_password"])
 
         attrs['user'] = user
         return attrs

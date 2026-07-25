@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from ..models.Student import Student
+from ..utils import is_password_expired
 
 class StudentLoginSerializer(serializers.Serializer):
     student_number = serializers.CharField()  
@@ -21,6 +22,13 @@ class StudentLoginSerializer(serializers.Serializer):
 
         if not user:
             raise serializers.ValidationError("Invalid credentials")
+
+        if getattr(user, 'status', Student.STATUS_ACTIVE) == Student.STATUS_ARCHIVED:
+            raise serializers.ValidationError("This student account is archived")
+        
+        if user and is_password_expired(user):
+            user.must_change_password = True
+            user.save(update_fields=["must_change_password"])
 
         attrs['user'] = user
         return attrs

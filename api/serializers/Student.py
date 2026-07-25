@@ -22,6 +22,7 @@ class StudentSerializer(serializers.ModelSerializer):
             'enrolled_subjects',
             'block_section',
             'year_level',
+            'status',
             'birthdate',
             'must_change_password',
         ]

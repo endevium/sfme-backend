@@ -7,6 +7,11 @@ from .InstructorEvaluationForm import InstructorEvaluationForm
 from .ModuleEvaluationForm import ModuleEvaluationForm
 from .Student import Student
 from .OTP import EmailOTP
+from .Block import Block
+from .Classroom import Classroom
+from .ClassroomEnrollment import ClassroomEnrollment
+from .Module import Module
+from .Program import Program
 
 __all__ = [
     "AuditLog",
@@ -18,5 +23,10 @@ __all__ = [
     "InstructorEvaluationForm",
     "ModuleEvaluationForm",
     "Student",
-    "EmailOTP"
+    "EmailOTP",
+    "Block",
+    "Classroom",
+    "ClassroomEnrollment",
+    "Module",
+    "Program"
 ]
