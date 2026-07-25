@@ -19,7 +19,7 @@ import re
 
 from .throttles import AIRequestRateThrottle, LoginRateThrottle
 from .models import Student
-from .sentiment_service import predict_sentiment, analyze_theme, BLOCKED_THEME_LABELS
+# from .sentiment_service import predict_sentiment, analyze_theme, BLOCKED_THEME_LABELS
 from .security.implementation import sanitize_prompt, detect_poisoned_feedback
 import csv
 import io
