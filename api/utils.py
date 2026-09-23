@@ -10,6 +10,7 @@ from .models.OTP import EmailOTP
 import csv
 import io
 import bleach
+import os
 
 import re
 from rest_framework.exceptions import ValidationError as DRFValidationError
@@ -23,12 +24,15 @@ ALLOWED_CSV_MIME_TYPES = {
 ANGLE_RE = re.compile(r"[<>]")
 EMOJI_FALLBACK_RE = re.compile(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]")
 
+
+
 def generate_otp() -> str:
     return f"{secrets.randbelow(1_000_000):06d}"
 
 def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOTP.Purpose.LOGIN, role: str = EmailOTP.Role.STUDENT) -> EmailOTP:
     otp = generate_otp()
     now = timezone.now()
+    resend.api_key = os.getenv("RESEND_API_KEY")
 
     pending_token = secrets.token_urlsafe(32)
 
@@ -42,12 +46,10 @@ def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOT
     )
 
     app_name = getattr(settings, "APP_NAME", "University of Pangasinan Student Feedback and Module Evaluation System")
-    from_email = getattr(settings, "DEFAULT_FROM_EMAIL", getattr(settings, "EMAIL_HOST_USER", None))
 
     # Subject kept short to avoid spam filters
-    subject = f"Verification Code"
+    subject = "Verification Code"
 
-    # Plain-text fallback
     text_body = (
         f"{app_name} Verification Code\n\n"
         f"Your one-time code is: {otp}\n"
@@ -56,11 +58,16 @@ def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOT
         "Do not share this code with anyone.\n"
     )
 
-    # Minimal HTML (no external assets)
     html_body = f"""
     <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #0f172a;">
-      <h2 style="margin: 0 0 12px;">{app_name} Verification Code</h2>
-      <p style="margin: 0 0 12px;">Use the code below to continue signing in:</p>
+      <h2 style="margin: 0 0 12px;">
+        {app_name} Verification Code
+      </h2>
+
+      <p style="margin: 0 0 12px;">
+        Use the code below to continue signing in:
+      </p>
+
       <div style="
           display: inline-block;
           padding: 12px 16px;
@@ -70,18 +77,39 @@ def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOT
           background: #f1f5f9;
           border: 1px solid #e2e8f0;
           border-radius: 10px;
-      ">{otp}</div>
-      <p style="margin: 12px 0 0;">This code expires in <b>{ttl_minutes} minutes</b>.</p>
-      <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 16px 0;" />
-      <p style="margin: 0; font-size: 12px; color: #475569;">
-        If you didn’t request this, you can ignore this email. Do not share this code with anyone.
+      ">
+        {otp}
+      </div>
+
+      <p style="margin: 12px 0 0;">
+        This code expires in <b>{ttl_minutes} minutes</b>.
+      </p>
+
+      <hr style="
+          border: none;
+          border-top: 1px solid #e2e8f0;
+          margin: 16px 0;
+      " />
+
+      <p style="
+          margin: 0;
+          font-size: 12px;
+          color: #475569;
+      ">
+        If you didn’t request this, you can ignore this email.
+        Do not share this code with anyone.
       </p>
     </div>
     """
 
-    msg = EmailMultiAlternatives(subject=subject, body=text_body, from_email=from_email, to=[email])
-    msg.attach_alternative(html_body, "text/html")
-    msg.send(fail_silently=False)
+    # Send through Resend HTTPS API
+    resend.Emails.send({
+        "from": "onboarding@resend.dev",
+        "to": [email],
+        "subject": subject,
+        "text": text_body,
+        "html": html_body,
+    })
 
     return record
 
