@@ -11,6 +11,7 @@ import csv
 import io
 import bleach
 import os
+import resend
 
 import re
 from rest_framework.exceptions import ValidationError as DRFValidationError
