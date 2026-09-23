@@ -105,7 +105,7 @@ def create_and_send_otp(email: str, ttl_minutes: int = 5, purpose: str = EmailOT
 
     # Send through Resend HTTPS API
     resend.Emails.send({
-        "from": "onboarding@resend.dev",
+        "from": "UpangSFME <noreply@upangsfme.online>",
         "to": [email],
         "subject": subject,
         "text": text_body,
